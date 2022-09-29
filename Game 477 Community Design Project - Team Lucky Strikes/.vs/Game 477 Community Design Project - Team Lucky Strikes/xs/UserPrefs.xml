@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{2208CAE6-06B0-3DDA-6A8F-8279409D15D4}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Scripts/Fish.cs">
+    <Files>
+      <File FileName="Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Scripts/Fish.cs" Line="51" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Game 477 Community Design Project - Team Lucky Strikes" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a17dbd7a-6507-4603-96eb-ddd5eef9cbd4" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

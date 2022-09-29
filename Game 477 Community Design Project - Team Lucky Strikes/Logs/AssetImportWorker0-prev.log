@@ -1,0 +1,526 @@
+Unity Editor version:    2021.3.10f1 (1c7d0df0160b)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.8 (Build 20G730)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/marcosyu/Desktop/Game 477 Community Design/Github/Game-477-Design-Project/Game 477 Community Design Project - Team Lucky Strikes
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51894
+Successfully changed project path to: /Users/marcosyu/Desktop/Game 477 Community Design/Github/Game-477-Design-Project/Game 477 Community Design Project - Team Lucky Strikes
+/Users/marcosyu/Desktop/Game 477 Community Design/Github/Game-477-Design-Project/Game 477 Community Design Project - Team Lucky Strikes
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 113.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/marcosyu/Desktop/Game 477 Community Design/Github/Game-477-Design-Project/Game 477 Community Design Project - Team Lucky Strikes/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+XZ322Q preferred device: AMD Radeon R9 M290 (high power)
+Metal devices available: 1
+0: AMD Radeon R9 M290 (high power)
+Using device AMD Radeon R9 M290 (high power)
+Initializing Metal device caps: AMD Radeon R9 M290
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56190
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002144 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 109.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (899ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (653ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002959 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/marcosyu/Desktop/Game 477 Community Design/Github/Game-477-Design-Project/Game 477 Community Design Project - Team Lucky Strikes/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/marcosyu/Desktop/Game 477 Community Design/Github/Game-477-Design-Project/Game 477 Community Design Project - Team Lucky Strikes/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.433 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1434ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1133ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (408ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (501ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (6.1 MB). Loaded Objects now: 3861.
+Memory consumption went from 254.6 MB to 248.5 MB.
+Total: 5.641162 ms (FindLiveObjects: 0.372757 ms CreateObjectMapping: 0.232084 ms MarkObjects: 3.575128 ms  DeleteObjects: 1.459998 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 289593.174485 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Tropical Fish.mat
+  artifactKey: Guid(dab5a777802bb954cab7f4ff89e78de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Tropical Fish.mat using Guid(dab5a777802bb954cab7f4ff89e78de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb8fa0a11c0665575eae490afdd7a3d') in 1.116374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Wood 2.mat
+  artifactKey: Guid(cc4ad22ea6c528044aad913ba9065b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Wood 2.mat using Guid(cc4ad22ea6c528044aad913ba9065b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a965e5a0af8ee0a1b2ddfd6c9d6461') in 0.037228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sunshine.mat
+  artifactKey: Guid(d228ab8b218a3fe49893185d5aafea3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sunshine.mat using Guid(d228ab8b218a3fe49893185d5aafea3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6a35ddcb36d6cf0afdd1b713b5d0a3') in 0.138492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 1.mat
+  artifactKey: Guid(af1451ed672589a4e985b412cad14488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 1.mat using Guid(af1451ed672589a4e985b412cad14488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9cc488e6c71ffc8b7bc02c4ffaa1c3') in 0.043290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 6.mat
+  artifactKey: Guid(51f87264019192440b1c7c6a9432e07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 6.mat using Guid(51f87264019192440b1c7c6a9432e07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a9b88c50d97d53522918443d87344a') in 0.029104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sunshafts 1.mat
+  artifactKey: Guid(33f9b24854b87f5469492c068115bce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sunshafts 1.mat using Guid(33f9b24854b87f5469492c068115bce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a5ff68420be0ee871313cd90b2651e') in 0.021118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 4.mat
+  artifactKey: Guid(897dbb98574a3084f93c526ee1082c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 4.mat using Guid(897dbb98574a3084f93c526ee1082c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3106fe6221ccbd4f69782689561d75e') in 0.019201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Wood 1.mat
+  artifactKey: Guid(6fd29bacccf422a4096bacaf2e28d3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Wood 1.mat using Guid(6fd29bacccf422a4096bacaf2e28d3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cbd6171fd82eb35ff69a68cd31bb95') in 0.011710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sub.mat
+  artifactKey: Guid(e4fc936d5913be9458ccf199a5f78cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sub.mat using Guid(e4fc936d5913be9458ccf199a5f78cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca9b76cd67961b0cbc676bdf5e36551') in 0.013670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 7.mat
+  artifactKey: Guid(283be85ee2a1d8948a76ff80c4516b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 7.mat using Guid(283be85ee2a1d8948a76ff80c4516b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cba63ac0e297c2043c585c8afeaf1b') in 0.020602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Temple.mat
+  artifactKey: Guid(287387ad18f9a8142b73cb53a18293bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Temple.mat using Guid(287387ad18f9a8142b73cb53a18293bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d3b35e944ea8a91166b24359d36356') in 0.445837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 2.mat
+  artifactKey: Guid(a0b1ad20c017fc44f98a0690ea703599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 2.mat using Guid(a0b1ad20c017fc44f98a0690ea703599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b088162fa914bb4f50a7ee7f30fd24d5') in 0.044290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Surface.mat
+  artifactKey: Guid(6d2384c0aac258f4883346063792d94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Surface.mat using Guid(6d2384c0aac258f4883346063792d94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8350ec46f81ca9c34c6dffeb68bf6766') in 0.022235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 3.mat
+  artifactKey: Guid(3a995a3b191ee1742bd6001886fd8a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 3.mat using Guid(3a995a3b191ee1742bd6001886fd8a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603b83d045d92977d3a607fcd78501b9') in 0.025712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 5.mat
+  artifactKey: Guid(64542bdf35b6fcc4b942b65e26015a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 5.mat using Guid(64542bdf35b6fcc4b942b65e26015a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0d419491ea6557f96b596edffd2b8f') in 0.020590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sunshafts.mat
+  artifactKey: Guid(1b591165f525efe419e717c93d4f67db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sunshafts.mat using Guid(1b591165f525efe419e717c93d4f67db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404792414eaae5986a94a414ac552749') in 0.010568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Stylized Terrain.mat
+  artifactKey: Guid(5c3c2cc137b878e46b70c4586a97c7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Stylized Terrain.mat using Guid(5c3c2cc137b878e46b70c4586a97c7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+ -> (artifact id: '7e65996e8efcaeaec741d597736ce1fd') in 0.968270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Switch.mat
+  artifactKey: Guid(bfc2b1e4794a43b4083588ce46885839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Switch.mat using Guid(bfc2b1e4794a43b4083588ce46885839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd668a7bde95183137a44134874c06d01') in 0.009372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.429007 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Animals/Fish School.prefab
+  artifactKey: Guid(02009fedc15396b40a1ee9bcf1a74207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Animals/Fish School.prefab using Guid(02009fedc15396b40a1ee9bcf1a74207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d65086a1ff1b1d7c3a5a80eb3b080ec') in 0.382416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Animals/Hammerhead Shark.prefab
+  artifactKey: Guid(8aaa57f515f4bb54fa6fae441aa0c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Animals/Hammerhead Shark.prefab using Guid(8aaa57f515f4bb54fa6fae441aa0c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768e9df5c4100dff76a5a8e14e138b4c') in 0.055826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Animals/Great White Shark.prefab
+  artifactKey: Guid(5adec03d27cf9704cb584ecde90f6305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Animals/Great White Shark.prefab using Guid(5adec03d27cf9704cb584ecde90f6305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f09f7ada45172d1b702d3903ad73d42') in 0.042616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.684330 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple
+  artifactKey: Guid(d726f81e706f62245bb0ad9bd7f8ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple using Guid(d726f81e706f62245bb0ad9bd7f8ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d5bbdedb2cf6c74b3d6e767ae8b028') in 0.003072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037467 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arch 1.prefab
+  artifactKey: Guid(9766c0aff81794744bb79b7e01ee28a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arch 1.prefab using Guid(9766c0aff81794744bb79b7e01ee28a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c10eed56837675ae2c4e4625bd069ad') in 0.069262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arch 3.prefab
+  artifactKey: Guid(631613b821193794ea3ad08bfe2282c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arch 3.prefab using Guid(631613b821193794ea3ad08bfe2282c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306e335e5a8f390df966824bc84f9bbc') in 0.011279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arch Small.prefab
+  artifactKey: Guid(dbee6215604694640a4cb8a0bf288432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arch Small.prefab using Guid(dbee6215604694640a4cb8a0bf288432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee318b97b366086e72e4b928ee4d89e') in 0.010382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arch Top.prefab
+  artifactKey: Guid(852805c71fdcf8c44846c361f2d842e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arch Top.prefab using Guid(852805c71fdcf8c44846c361f2d842e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1376236b9b906cc930a7ab8dd3f66e') in 0.010144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arches Small.prefab
+  artifactKey: Guid(61e4cac8049565644b9e60632c0adffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arches Small.prefab using Guid(61e4cac8049565644b9e60632c0adffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a343060d49b706bfb4784704db24bcb') in 0.030841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Half Cube 1.prefab
+  artifactKey: Guid(f4377afd71be409409c69d706b34f709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Half Cube 1.prefab using Guid(f4377afd71be409409c69d706b34f709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70210a5ebb273983d50557f0d9ba26eb') in 0.010036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Roof 1.prefab
+  artifactKey: Guid(e5218a087ed0226449e97cc4d30963a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Roof 1.prefab using Guid(e5218a087ed0226449e97cc4d30963a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4aa86afd1bcf101954efcf37c4f2a7d') in 0.012436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Half Cube 2.prefab
+  artifactKey: Guid(f07c673f11859c642a52c4e83a333d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Half Cube 2.prefab using Guid(f07c673f11859c642a52c4e83a333d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ec3d06b948cbe3b23d1da5cef18ae3') in 0.011248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Edging Side.prefab
+  artifactKey: Guid(4344d4d10f82bc3478cd537fb685c891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Edging Side.prefab using Guid(4344d4d10f82bc3478cd537fb685c891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca2c37f20918fd02e68f8dd8178a20e') in 0.013205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Short Column.prefab
+  artifactKey: Guid(16168241060b27d4b92673d6d1acca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Short Column.prefab using Guid(16168241060b27d4b92673d6d1acca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d86cba152684aecfa407d57867b28a') in 0.012181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Stairs 1.prefab
+  artifactKey: Guid(553e4fcfe95bfb1428090cbcb2f4e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Stairs 1.prefab using Guid(553e4fcfe95bfb1428090cbcb2f4e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f016b255a045e2596d5d820d4002fb') in 0.012057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Half Cube 4.prefab
+  artifactKey: Guid(13b9e73a83c26e7418f59c3d145f31a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Half Cube 4.prefab using Guid(13b9e73a83c26e7418f59c3d145f31a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac1d5e85274fe69e43531cf4309dc81') in 0.011052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arch 4.prefab
+  artifactKey: Guid(2a4f0944367ad5f4582455a5a9545dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arch 4.prefab using Guid(2a4f0944367ad5f4582455a5a9545dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d27c7b184271a84a5b83712bfa475b') in 0.012465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Roof 2.prefab
+  artifactKey: Guid(43e5195f3789c2a408db1f53c6345bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Roof 2.prefab using Guid(43e5195f3789c2a408db1f53c6345bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de7bb9a6c5ae8acbe39bc0de35a72fd') in 0.013032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Wall Corner.prefab
+  artifactKey: Guid(05d40833416445c4ca119e8327f37820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Wall Corner.prefab using Guid(05d40833416445c4ca119e8327f37820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8dbc0fa195a27730fa89baed942f60') in 0.014136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arch 2.prefab
+  artifactKey: Guid(7a8d14c6bb429244e8f269a275ca5ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arch 2.prefab using Guid(7a8d14c6bb429244e8f269a275ca5ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb5de5d53853d66a75594d23418daa1') in 0.012322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Roof 3.prefab
+  artifactKey: Guid(7846007989cb85142b8ac5d98f300052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Roof 3.prefab using Guid(7846007989cb85142b8ac5d98f300052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028296f1ba0688a29a726ecdf212d5d8') in 0.011649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arches Column.prefab
+  artifactKey: Guid(8219c775f6246334ea1be89c4faf79a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arches Column.prefab using Guid(8219c775f6246334ea1be89c4faf79a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4297aff8c26c02b9aa1d895e0a7f0496') in 0.013119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Edging Corner 2.prefab
+  artifactKey: Guid(c9019bbbdc8dc2a4fae5fba8c6d674aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Edging Corner 2.prefab using Guid(c9019bbbdc8dc2a4fae5fba8c6d674aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcab02adcc279d3ab4ab5feb8ac26e1f') in 0.013028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Doorway 1.prefab
+  artifactKey: Guid(e59210a6762c5b045a8b494bc677cc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Doorway 1.prefab using Guid(e59210a6762c5b045a8b494bc677cc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbee27bf4aeb80957a45e4ee283153e') in 0.011415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Stairs 2.prefab
+  artifactKey: Guid(81f6e91ee2e0c3a45b68711a40d483ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Stairs 2.prefab using Guid(81f6e91ee2e0c3a45b68711a40d483ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d650c1f38f493a3a7dc205eb68f9521') in 0.012211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Fancy Wall 2.prefab
+  artifactKey: Guid(ad7bfc3f2ac5f514fbad4aad30366978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Fancy Wall 2.prefab using Guid(ad7bfc3f2ac5f514fbad4aad30366978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4ba567741d1092ceddffeb634ff23e') in 0.013663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Pillar Extension.prefab
+  artifactKey: Guid(f1eab71fdaf0c144b8be2f29a026c160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Pillar Extension.prefab using Guid(f1eab71fdaf0c144b8be2f29a026c160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8400f584fd051dd2c1dee53ddd85514e') in 0.015251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Temple.prefab
+  artifactKey: Guid(0bc719d6d97b71e47b33c25b3f22a655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Temple.prefab using Guid(0bc719d6d97b71e47b33c25b3f22a655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee510a4504a013443350e2fd84aadb51') in 0.133053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001130 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Fancy Wall 1.prefab
+  artifactKey: Guid(ca42aecb5571d824f8ff8005470f90c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Fancy Wall 1.prefab using Guid(ca42aecb5571d824f8ff8005470f90c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b581deae11a83918abdc6ddcd514d077') in 0.016270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Edging Corner 1.prefab
+  artifactKey: Guid(cb50a5e0cab072449901e057c3105636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Edging Corner 1.prefab using Guid(cb50a5e0cab072449901e057c3105636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b3257832837bf8d0fa860f5fd1ee86') in 0.021751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Half Cube 3.prefab
+  artifactKey: Guid(2f733e549d212f449b371cc815fb04a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Half Cube 3.prefab using Guid(2f733e549d212f449b371cc815fb04a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579623d846fc573749d07f77b9c2087b') in 0.021273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Tall Column.prefab
+  artifactKey: Guid(e144d04ef40c19549838526e8203efce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Tall Column.prefab using Guid(e144d04ef40c19549838526e8203efce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d0f01fadc24e6d7319936a118dd537') in 0.063142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arches Corner.prefab
+  artifactKey: Guid(eb24425a3fa20b544a3dfa6eb473803d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arches Corner.prefab using Guid(eb24425a3fa20b544a3dfa6eb473803d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f567a29f3f668827e03b24e08e73b6') in 0.014334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Tower Extension 1.prefab
+  artifactKey: Guid(4085fa7fd7a4f1943a24867eed9884ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Tower Extension 1.prefab using Guid(4085fa7fd7a4f1943a24867eed9884ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8860f1a305a8a2572ae8248f2b9177') in 0.018507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Wall.prefab
+  artifactKey: Guid(7f378312739f0944fb026fe053d4be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Wall.prefab using Guid(7f378312739f0944fb026fe053d4be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f20f0f151bf03c4a7db5cca1e88acc') in 0.033657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Tower Extension.prefab
+  artifactKey: Guid(a032746149697ac4491631311a2e95b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Tower Extension.prefab using Guid(a032746149697ac4491631311a2e95b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd059e493aea27fe9f2ec7142e217d05a') in 0.027896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arches Side.prefab
+  artifactKey: Guid(17bc086fe99fddf4a8acee1affd028be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Arches Side.prefab using Guid(17bc086fe99fddf4a8acee1affd028be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d5db92b535eb448f93be1a7d5b9dea') in 0.028423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.592348 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Window Corner.prefab
+  artifactKey: Guid(39d9d84dc8c78344f9ddff944c64e136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Window Corner.prefab using Guid(39d9d84dc8c78344f9ddff944c64e136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afab165dab71d57a413f9a1f017fc7c') in 0.019119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Window.prefab
+  artifactKey: Guid(eedd675a63044d04f87ac3caa8931537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Window.prefab using Guid(eedd675a63044d04f87ac3caa8931537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aec158060d27cd757805c5523c82664') in 0.012195 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
