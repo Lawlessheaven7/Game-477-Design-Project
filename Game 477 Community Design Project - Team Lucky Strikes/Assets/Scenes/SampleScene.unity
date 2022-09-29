@@ -1924,6 +1924,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2135773970}
     m_Modifications:
     - target: {fileID: 6023623886322974144, guid: 02009fedc15396b40a1ee9bcf1a74207, type: 3}
+      propertyPath: wanderSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023623886322974144, guid: 02009fedc15396b40a1ee9bcf1a74207, type: 3}
       propertyPath: fishPrefabs.Array.size
       value: 8
       objectReference: {fileID: 0}
@@ -1963,6 +1967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fish School (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6023623886322974145, guid: 02009fedc15396b40a1ee9bcf1a74207, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6023623886322974147, guid: 02009fedc15396b40a1ee9bcf1a74207, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1973,11 +1981,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6023623886322974147, guid: 02009fedc15396b40a1ee9bcf1a74207, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6023623886322974147, guid: 02009fedc15396b40a1ee9bcf1a74207, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.163913
+      value: -0.41
       objectReference: {fileID: 0}
     - target: {fileID: 6023623886322974147, guid: 02009fedc15396b40a1ee9bcf1a74207, type: 3}
       propertyPath: m_LocalRotation.w
