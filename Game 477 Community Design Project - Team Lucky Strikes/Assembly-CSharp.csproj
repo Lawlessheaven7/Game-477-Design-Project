@@ -66,6 +66,10 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Assets/Scripts/Launcher.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
@@ -95,6 +99,10 @@
     <Compile Include="Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Scripts/GlobalFlock.cs" />
     <Compile Include="Assets/Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Scripts/WaypointSystem.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Assets/Scripts/OptionMenu.cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
