@@ -1,0 +1,4 @@
+repository "Lucky_Strikes_GAME477_Project@Lucky_Strikes@cloud"
+  path "/"
+    br "/main"
+    co "/main"
